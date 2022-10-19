@@ -1,0 +1,42 @@
+/* Common styles */
+body {
+    margin: 0px;
+}
+/* Common nav styles */ 
+.navigation-wrapper {
+    height: 190PX;
+    background-color: #11122b; 
+    color: #cbcbcb; 
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+
+    /* padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+    padding-left: 100px; */
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin: 15px;
+}
+
+.icon i {
+    font-size: 2em; 
+}
+
+
+.left-column > .contact-hours-wrapper { 
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.address-wrapper {
+}
