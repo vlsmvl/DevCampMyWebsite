@@ -6,8 +6,13 @@
     <title>Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/f3572a35c5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/homepage.css">
    
 </head>
 <body>
@@ -30,30 +35,56 @@
         </div>
 
         <!-- Link wrapper -->
-            <div>
-                <div class="nav-link">
-                    <a href="index.html">Home</a>
-                </div>
+            <div class="center-column">
+                    <div class="banner-image">
+                        <img src="images/logos/decamp-fantastic-fries-logo-white.png" alt="logo" width="216px" height="100%">
+                    </div>
 
-                <div class="nav-link">
-                    <a href="about.html">About</a>
-                </div>
-    
-                <div class="nav-link">
-                    <a href="menu.html">Menu</a>
-                </div>
+                 <div class="links-wrapper">
+                    <div class="nav-link">
+                        <a href="index.html">Home</a>
+                    </div>
 
-                <div class="nav-link">
-                    <a href="contact.html">Contact</a>
-                </div>
+                    <div class="nav-link">
+                        <a href="about.html">About</a>
+                    </div>
+        
+                    <div class="nav-link">
+                        <a href="menu.html">Menu</a>
+                    </div>
 
-        </div>
+                    <div class="nav-link">
+                        <a href="contact.html">Contact</a>
+                    </div>
+
+                </div>
+            </div>
 
         <!-- Adress-->
-        <div class="address-wrapper">
-            <i class="fa-solid fa-location-dot"></i>
-            123 Any Street
-            Scottsdale, AZ, 85251
+        <div class="right-column">
+            <div class="address-wrapper">
+                <a href="contact.html">
+                    123 Any Street<br>
+                Scottsdale, AZ, 85251
+                </a>
+            </div>
+
+            <div class="contact-icon">
+                <a href="contact.html">
+                    <i class="fa-solid fa-location-dot"></i>
+                 </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="hero-section">
+        <div class="top-heading">
+            <h1>HTML Styled Fries</h1>
+        </div>
+
+        <div class="bottom-heading">
+            <h3>Coding Fuel</h3>
         </div>
     </div>
 
