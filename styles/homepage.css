@@ -7,6 +7,54 @@
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
+}
 
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 2px;
+}
+
+.hero-selection > .bottom-heading {
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 107px;
+    border-radius: 2px;
+}
+
+/* Features section styles */
+.features-section {
+    height: 400px;
+    background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
+    background-color:#cea135;
+    border-top: 10px solid white; 
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu condensend";   
+}
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid #11122b;
 
 }
