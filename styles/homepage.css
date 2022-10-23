@@ -58,3 +58,7 @@
     border-bottom: 5px solid #11122b;
 
 }
+
+.features-selection > .columns-wrapper > .column:nth-child(1) {
+    font-size: 3em;
+}
